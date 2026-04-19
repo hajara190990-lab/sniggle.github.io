@@ -3,26 +3,46 @@ body {
   margin: 0;
   color: #333;
 }
-
-/* Header */
-.site-header {
-  background: #0a2a5c;
-  color: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Navbar */
+header {
+    background-color: #102152;
+    padding: 20px 10%;
 }
-.site-header .logo { font-weight: bold; }
-.navbar ul { list-style: none; display: flex; gap: 1rem; }
-.navbar a { color: #fff; text-decoration: none; }
-.navbar a.active { border-bottom: 2px solid #fff; }
-.btn-primary {
-  background: #ff9800;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #3a86ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2406cf;
 }
 
 /* Hero */

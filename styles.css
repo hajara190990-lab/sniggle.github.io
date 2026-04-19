@@ -14,7 +14,7 @@ body {
 
 /* Navbar */
 header {
-    background-color: #050a18;
+    background-color: #102152;
     padding: 20px 10%;
 }
 
@@ -51,7 +51,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #fff;
+    color: #2406cf;
 }
 
 /* Hero Section */
